@@ -21,8 +21,6 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- icon tab -->
     <link rel="icon" type="png" href="assets/img/logo.jpg">
-    <!-- javaScript file -->
-    <script src="js/javaScript.js" defer></script>
 </head>
 
 <body>
@@ -487,7 +485,7 @@
                 <span class="close" onclick="closeModel()">&times;</span>
                 <h2>Book Your Appointment</h2>
             </div>
-            <form class="appointmentForm" action="">
+            <form class="appointmentForm" id="appointmentForm" action="">
                 <input type="text" placeholder="Your Name" required>
                 <input type="email" placeholder="Email" required>
                 <input type="tel" placeholder="Phone Number" required>
@@ -515,7 +513,7 @@
                     <option value="04:00 PM">04:00 PM</option>
                 </datalist>
                 <textarea placeholder="Notes(optional)"></textarea>
-                <button id="SubmitBtn" type="submit">Submit Appointment</button>
+                <input id="SubmitBtn" type="submit" value="Submit Appointment">
             </form>
         </div>
     </div>

@@ -1,7 +1,7 @@
 // ------------------------Book Appointment Model----------------------------------
 let appointmentBox = document.querySelector('#appModel')
-let SubmitBtn = document.querySelector('#SubmitBtn')
 let toastMessage = document.querySelector('#toast')
+let appointmentForm = document.querySelector("#appointmentForm")
 
 function openModel() {
     appointmentBox.classList.add('show')
@@ -11,14 +11,14 @@ function closeModel() {
     appointmentBox.classList.remove('show')
 }
 
-SubmitBtn.addEventListener('click', function (e) {
+appointmentForm.addEventListener('submit', function (e) {
     e.preventDefault()
     closeModel()
     toastMessage.classList.add('showToast')
     setTimeout(() => {
         toastMessage.classList.remove('showToast')
     }, 2500)
-    document.querySelector('.appointmentForm').reset();
+    appointmentForm.reset();
 })
 // ----------------------------check (N) letters--------------------------------------------------
 let counter = document.querySelector("#counter")

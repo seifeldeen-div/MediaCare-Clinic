@@ -1150,7 +1150,8 @@ footer .container .bottom p a:hover {
     font-size: 15px;
 }
 
-.appointmentModel .container form button {
+.appointmentModel .container form input[type = "submit"] {
+    cursor: pointer;
     margin: 10px 0;
     height: 60px;
     border-radius: 15px;
