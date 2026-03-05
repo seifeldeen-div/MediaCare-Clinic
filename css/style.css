@@ -1521,6 +1521,10 @@ textarea[id="message"].error {
         font-size: 2.75rem;
     }
 
+    header .container .content h1+p {
+        margin: auto;
+    }
+
     header .container .content .btns {
         justify-content: center;
         flex-wrap: wrap;
@@ -1692,6 +1696,8 @@ textarea[id="message"].error {
 
     header .container .content h1+p {
         font-size: 16px;
+        width: 85%;
+        margin: auto;
     }
 
     header .container .content .btns {
@@ -1834,6 +1840,8 @@ textarea[id="message"].error {
 
     header .container .content h1+p {
         font-size: 15px;
+        width: 90%;
+        margin: auto;
     }
 
     header .container .content .btns .btn1 a,
