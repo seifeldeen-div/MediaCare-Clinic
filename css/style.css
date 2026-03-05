@@ -175,7 +175,7 @@ nav .container ul li:hover::after {
 }
 
 nav .container .nav-btn {
-    width: 15%;
+    width: 18%;
     text-align: center;
     border-radius: 50px;
     background: linear-gradient(135deg, #2563eb 0%, #14b8a6 100%);
@@ -184,7 +184,7 @@ nav .container .nav-btn {
 
 nav .container .nav-btn a {
     display: inline-block;
-    padding: 13px 20px;
+    padding: 15px 20px;
     color: rgba(255, 255, 255, 0.966);
 }
 
@@ -239,16 +239,17 @@ header .container .content p:first-child {
 }
 
 header .container .content h1 {
-    font-size: 3.75rem;
+    font-size: 3rem;
     margin: 30px 0 10px 0;
 }
 
 header .container .content h1+p {
-    font-size: 18px;
+    font-size: 16px;
     color: #4b5563;
     margin-bottom: 15px;
     line-height: 1.7;
     font-weight: 300;
+    width: 80%;
 }
 
 header .container .content .btns {
@@ -257,7 +258,7 @@ header .container .content .btns {
 
 header .container .content .btns .btn1,
 header .container .content .btns .btn2 {
-    margin: 35px 10px;
+    margin: 25px 10px;
 }
 
 header .container .content .btns .btn1 a,
@@ -374,8 +375,8 @@ header .container .banner-img {
 }
 
 header .container .banner-img img {
-    width: 584px;
-    height: 500px;
+    width: 500px;
+    height: 422px;
     border-radius: 30px;
 }
 
@@ -383,8 +384,8 @@ header .container .banner-img::before {
     content: "";
     position: absolute;
     top: 0px;
-    left: 37px;
-    width: 90%;
+    left: 9px;
+    width: 97%;
     height: 100%;
     background: linear-gradient(135deg, #2563eb 0%, #14b8a6 100%);
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
@@ -736,8 +737,9 @@ header .container .banner-img::before {
     border-radius: 30px;
     width: 47%;
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }
+
 
 .houres .container .time div {
     padding: 15px 0;
@@ -797,7 +799,7 @@ header .container .banner-img::before {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 15px;
 }
 
@@ -805,6 +807,7 @@ header .container .banner-img::before {
     display: flex;
     align-items: center;
     width: 100%;
+    height: 29%;
     padding: 20px;
     background-color: white;
     border-radius: 15px;
@@ -863,6 +866,7 @@ header .container .banner-img::before {
 
 .contact .container .content .contact-box {
     width: 49%;
+    height: 100%;
     padding: 30px;
     border-radius: 30px;
     display: flex;
@@ -1469,7 +1473,7 @@ textarea[id="message"].error {
     }
 
     .services .container .cards .card {
-        width: calc(50% - 10px);
+        /* width: calc(50% - 10px); */
         padding: 25px;
     }
 
